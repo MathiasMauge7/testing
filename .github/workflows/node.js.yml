@@ -34,6 +34,8 @@ jobs:
     - name: Tests
       run: npm run test
 
-    - name: Install Vercel CLI
-      run: npm install --global vercel@latest
+    - name: Install Vercel
+      run: npm install vercel
     
+    - name: Deploy to Vercel
+      run: vercel --prod --token=LSJcsmap3ytUSwHaRbB2Ancb
