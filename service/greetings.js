@@ -1,9 +1,13 @@
-const greet = name => {
-  return `Hello, ${name}!`
-}
+const greet = (name) => {
+  return `Hello, ${name}!`;
+};
 
-const bye = name => {
-  return `Goodbye, ${name}!`
-}
+const bye = (name) => {
+  return `Goodbye, ${name}!`;
+};
 
-module.exports = { greet, bye }
+const night = (name) => {
+  return `Goodnight, ${name}!`;
+};
+
+module.exports = { greet, bye, night };
