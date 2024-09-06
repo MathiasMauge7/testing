@@ -25,9 +25,14 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
-    - name: build
+    - name: Hello World
+      run : echo "HELLO WORLD"
+
+    - name: Build
       run: npm install
 
-    - name: tests
+    - name: Tests
       run: npm run test
+
+
     
